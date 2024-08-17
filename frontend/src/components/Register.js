@@ -8,7 +8,7 @@ function Register() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://matchmaking-backend.onrender.com/register", { name, bio })
+      .post("https://matchmakingjasiri.onrender.com/register", { name, bio })
       .then((response) => {
         alert("User registered successfully");
       })
